@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <title>Somewhere - By Aiman A.</title>
+    <link rel='stylesheet' href='cart.css'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--header section-->
+    <div class="header">
+        <div class="search">
+            <i class="bi bi-search search"></i>
+        </div>
+        <div class="logo">
+            <img src="somewhere.png">
+        </div>
+        <div class="profile">
+            <i class="bi bi-person person"></i>&nbsp;
+            <i class="bi bi-basket3 basket"></i>
+        </div>
+    </div>
+
+    <ul class="topnav">
+      <li><a href="homepage.html" data-hover="HOME">HOME</a></li>
+      <li><a href="totebags.html" data-hover="TOTE BAGS">TOTE BAGS</a></li>
+      <li><a href="shoulderbags.html" data-hover="SHOULDER BAGS">SHOULDER BAGS</a></li>
+      <li><a href="bucketbags.html" data-hover="BUCKET BAGS">BUCKET BAGS</a></li>
+      <li><a href="tshirts.html" data-hover="T-SHIRTS">T-SHIRTS</a></li>
+      <li><a href="sweatshirts.html" data-hover="SWEATSHIRTS">SWEATSHIRTS</a></li>
+    </ul>
+
+    <!--content section-->
+    <div class="cartcontainer">
+        <br><h2>Cart</h2><br><br>
+        <div class="row">
+          <div class="cartheader">
+            <table>
+              <tr>
+                <th>Product Category</th>
+                <th>Product Details</th>
+                <th>Size</th>
+                <th>Quantity</th>
+                <th></th>
+              </tr>
+              <tr>
+                <td><img src="totebag1-1.png" width="300" height="300"><br>Tote Bags</td>
+                <td><form name="form1" id="form1" action="/action_page.php">
+                  <select name="totedetails" id="totedetails">
+                    <option value="" selected="selected">Select Tote Bags</option>
+                    <option value="1">Picola Top Handle Bag - Mocha (RM189.00)</option>
+                    <option value="2">Nicola Mini Tote Denim - Houndstooth Navy (RM189.00)</option>
+                    <option value="3">NW 2 L Tote Bag - Brown (RM189.00)</option>
+                    </select>
+                    </form>
+                </td>
+                <td></td>
+                <td><form name="form1" id="form1" action="/action_page.php">
+                  <select name="totequant" id="totequant">
+                    <option value="" selected="selected">Please Select Quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select>
+                    </form>
+                </td>
+                <td><button class="btncart">ADD TO CART</button></td>
+              </tr>
+              <tr>
+                <td><img src="shoulder1-1.png" width="300" height="300"><br>Shoulder Bags</td>
+                <td><form name="form1" id="form1" action="/action_page.php">
+                  <select name="shoulderdetails" id="shoulderdetails">
+                    <option value="" selected="selected">Select Shoulder Bags</option>
+                    <option value="1">Saia Two-Way Mini Bag - Parchment (RM239.00)</option>
+                    <option value="2">Basta 3 Shoulder Bag - Sky Blue (RM229.00)</option>
+                    <option value="3">Lunar Ltd Edt Shoulder Bag (RM229.00)</option>
+                    </select>
+                    </form>
+                </td>
+                <td></td>
+                <td><form name="form1" id="form1" action="/action_page.php">
+                  <select name="shoulderquant" id="shoulderquant">
+                    <option value="" selected="selected">Please Select Quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select>
+                    </form>
+                </td>
+                <td><button class="btncart">ADD TO CART</button></td>
+              </tr>
+              <tr>
+                <td><img src="bucketbag1-1.png" width="300" height="300"><br>Bucket Bags</td>
+                <td><form name="form1" id="form1" action="/action_page.php">
+                  <select name="bucketdetails" id="bucketdetails">
+                    <option value="" selected="selected">Select Bucket Bags</option>
+                    <option value="1">Esbucket Mini Bucket Bag - Light Mocha (RM179.00)</option>
+                    <option value="2">Coley Plus Bucket Bag (RM199.00)</option>
+                    <option value="3">Niko-Niko Mini Bucket Bag - Raffia (RM179.00)</option>
+                    </select>
+                    </form>
+                </td>
+                <td></td>
+                <td><form name="form1" id="form1" action="/action_page.php">
+                  <select name="bucketquant" id="bucketquant">
+                    <option value="" selected="selected">Please Select Quantity</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    </select>
+                    </form>
+                </td>
+                <td><button class="btncart">ADD TO CART</button></td>
+              </tr>
+              <tr>
+                <td><img src="tshirt1-1.png" width="300" height="300"><br>T-Shirts</td>
+                <td><form name="form1" id="form1" action="/action_page.php">
+                    <select name="tshirtdetails" id="tshirtdetails">
+                      <option value="" selected="selected">Select T-Shirts</option>
+                      <option value="1">Basic Tee - Baby Blue (RM39.00)</option>
+                      <option value="2">Basic Tee - Black (RM39.00)</option>
+                      <option value="3">Basic Tee - Salmon (RM39.00)</option>
+                      </select>
+                      </form>
+                </td>
+                <td>
+                  <form name="form1" id="form1" action="/action_page.php">
+                    <select name="tshirtsize" id="tshirtsize">
+                      <option value="" selected="selected">Please Select Size</option>
+                      <option value="1">S</option>
+                      <option value="2">M</option>
+                      <option value="3">L</option>
+                      <option value="4">XL</option>
+                    </select>
+                  </form>
+                </td>
+                <td>
+                  <form name="form1" id="form1" action="/action_page.php">
+                    <select name="tshirtquant" id="tshirtquant">
+                      <option value="" selected="selected">Please Select Quantity</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      </select>
+                      </form>
+                </td>
+                <td><button class="btncart">ADD TO CART</button></td>
+              </tr>
+              <tr>
+                <td><img src="sweatshirt1-1.png" width="300" height="300"><br>Sweatshirts</td>
+                <td><form name="form1" id="form1" action="/action_page.php">
+                  <select name="sweatdetails" id="sweatdetails">
+                    <option value="" selected="selected">Select Sweatshirts</option>
+                      <option value="1">Basic Sweatshirt - Navy (RM89.00)</option>
+                      <option value="2">Furry Sweatshirt 36 - Beige (RM99.00)</option>
+                      <option value="3">Furry Sweatshirt 37 - Grey (RM99.00)</option>
+                    </select>
+                    </form>
+              </td>
+              <td>
+                <form name="form1" id="form1" action="/action_page.php">
+                  <select name="sweatsize" id="sweatsize">
+                    <option value="" selected="selected">Please Select Size</option>
+                      <option value="1">S</option>
+                      <option value="2">M</option>
+                      <option value="3">L</option>
+                      <option value="4">XL</option>
+                    </select>
+                    </form>
+              </td>
+              <td>
+                <form name="form1" id="form1" action="/action_page.php">
+                  <select name="sweatquant" id="sweatquant">
+                    <option value="" selected="selected">Please Select Quantity</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                    </select>
+                    </form>
+              </td>
+              <td><button class="btncart">ADD TO CART</button></td>
+              </tr>
+            </table><br> 
+          </div>
+          <div class="nextsummary">
+            <button class="btnsummary">
+              <a href="summary.html">CHECK ORDER SUMMARY</a>
+            </button>
+          </div>
+          <br><br>
+    </div>
+
+    <!-- footer section -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="description">
+            <p><i>Somewhere By Aiman A.</i> is a bag and accessories specialist company<br>that co-designs with very select and established designers and icons.</p>
+          </div>
+          
+          <div class="aboutus">
+            <h6>About Us</h6>
+              <ul class="footer-links">
+                <li><a>FAQ</a></li>
+                <li><a>About us</a></li>
+                <li><a>Custom made</a></li>
+                <br>
+              </ul>
+          </div>
+          
+          <div class="information">
+            <h6>Information</h6>
+                <ul class="footer-links">
+                    <li><a>Work with us</a></li>
+                    <li><a>Delivery and payment</a></li>
+                    <li><a>Returns</a></li>
+                    <br>
+                </ul>
+          </div>
+        </div>
+        <hr>
+        
+      </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <br>
+              <p class="copyright-text">&copy; 2022 <a>Somewhere By Aiman A.</a></p>
+              <br>
+            </div>
+          
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="instagram" href="#"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
